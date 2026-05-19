@@ -1,0 +1,7 @@
+services:
+  frontend:
+    image: sistema-despachos-frontend:test
+    container_name: despachos-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
